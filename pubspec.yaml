@@ -1,0 +1,24 @@
+name: portfolio
+description: A new Flutter project.
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ইমেজ পিকার এবং ইউআরএল লঞ্চার
+  image_picker: ^1.0.7
+  url_launcher: ^6.3.0
+
+  # Firebase কোর, স্টোরেজ এবং ক্লাউড ফায়ারস্টোর
+  firebase_core: ^3.0.0
+  firebase_storage: ^12.0.0
+  cloud_firestore: ^5.0.0
+
+  # পিডিএফ ডাউনলোড করার জন্য
+  http: ^1.2.0
+
+flutter:
+  uses-material-design: true
